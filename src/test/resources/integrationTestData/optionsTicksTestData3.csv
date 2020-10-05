@@ -1,3 +1,4 @@
+Timestamp,Ticker,Type,Side,Info,PutCall,Expiration,Strike,Quantity,Premium,Exchange
 06:30:18.527,ACWI,O, , ,C,20200117,770000,1336,9999999,Z
 06:30:18.528,ACWI,O, , ,P,20200117,610000,35,0,P
 06:30:18.528,ACWI,O, , ,P,20200117,610000,35,0,A

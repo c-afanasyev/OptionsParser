@@ -7,12 +7,12 @@ import java.io.File;
 import java.io.FileWriter;
 import java.util.Map;
 
-import static optionsParser.parsing.OptionsMinMaxPriceFinder.*;
+import static optionsParser.parsing.BatchOptionsTicksConsumer.*;
 
 public class CsvWriter {
     @SneakyThrows
     public void writeCsv(Map<String,int[]> data) {
-        String target = System.getProperty("user.home") + "/OptionsMinMaxPrices/prices.csv";
+        String target = System.getProperty("user.home") + "/OptionsMinMaxPricesFinder/prices.csv";
         File file = new File(target);
         file.getParentFile().mkdirs();
         file.createNewFile();
